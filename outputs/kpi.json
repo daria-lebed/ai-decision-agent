@@ -1,0 +1,15 @@
+{
+  "total_pipeline": 90000.0,
+  "by_stage": {
+    "Closed Won": 42000,
+    "Negotiation": 25000,
+    "Discovery": 15000,
+    "Lost": 8000
+  },
+  "top_deal": {
+    "Lead": "HyperCRM",
+    "Stage": "Closed Won",
+    "Value": 42000
+  },
+  "n_leads": 4
+}
