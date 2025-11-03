@@ -20,21 +20,22 @@ AI-powered RevOps assistant that analyzes CRM data, extracts insights, and build
 
 ## 🧠 Tech Stack
 
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="42" height="42" alt="Python"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="42" height="42" alt="Pandas"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="42" height="42" alt="Matplotlib"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" width="42" height="42" alt="OpenAI"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="42" height="42" alt="GitHub"/>
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" width="48" height="48" alt="OpenAI"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="48" height="48" alt="Matplotlib"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="48" height="48" alt="GitHub"/>
 </p>
 
 | Layer | Tools |
 |-------|--------|
-| Language | Python |
-| AI | OpenAI GPT-4o-mini |
-| Data | Pandas |
-| Workflow | Modular pipelines |
-| Output | CSV + AI summaries |
+| **Language** | Python |
+| **AI** | OpenAI GPT-4o-mini |
+| **Data** | Pandas |
+| **Visualization** | Matplotlib, Seaborn |
+| **Workflow** | Modular Pipelines |
+| **Output** | CSV + AI summaries |
 ---
 ## 📁 Project Structure
 ```bash
@@ -60,14 +61,12 @@ ai-decision-agent/
 git clone https://github.com/daria-lebed/ai-decision-agent.git
 cd ai-decision-agent
 ```
-
 # Create virtual environment & install dependencies
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-
 # Run AI agent
 ```bash
 python src/ai_insight.py
