@@ -14,8 +14,29 @@ AI-powered RevOps assistant that analyzes CRM data, extracts insights, and build
 - 🔁 Modular pipeline for automation & integration with HubSpot or Google Sheets
 
 ---
+
+## 💻 Tech Stack
+
+## 🧠 Tech Stack
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" width="48" height="48" alt="OpenAI"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="48" height="48" alt="Matplotlib"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="48" height="48" alt="GitHub"/>
+</p>
+
+| Layer | Tools |
+|-------|--------|
+| Language | Python |
+| AI | OpenAI GPT-4o-mini |
+| Data | Pandas |
+| Workflow | Modular pipelines |
+| Output | CSV + AI summaries |
+---
 ## 🧱 Project Structure
-```bash
+
 ai-decision-agent/
 ├── data/
 │   └── leads.csv
@@ -29,39 +50,32 @@ ai-decision-agent/
 │   ├── kpi.json
 │   └── summary.md
 └── README.md
-📌 *Комментарий:*  
-— Используем ```bash``` — структура читается как дерево директорий.  
 
 ---
+## 🧩 Installation
+
 ```bash
-cat >> README.md << 'EOF'
-## 💻 Tech Stack
+# Clone the repository
+git clone https://github.com/daria-lebed/ai-decision-agent.git
+cd ai-decision-agent
 
-| Layer | Tools |
-|-------|--------|
-| Language | Python |
-| AI | OpenAI GPT-4o-mini |
-| Data | pandas |
-| Workflow | modular pipeline |
-| Output | CSV + AI summaries |
+# Create virtual environment & install dependencies
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 
+# Run AI agent
+python src/ai_insight.py
+```
 ---
-## 💻 Tech Stack
 
-<p align="left">
-  <img src="docs/icons/python.svg" width="48" height="48" alt="Python"/>
-  <img src="docs/icons/openai.svg" width="48" height="48" alt="OpenAI"/>
-  <img src="docs/icons/pandas.svg" width="48" height="48" alt="Pandas"/>
-  <img src="docs/icons/plotly.svg" width="48" height="48" alt="Matplotlib/Plotly"/>
-  <img src="docs/icons/mit.svg" width="48" height="48" alt="License"/>
-</p>
+🧾 License
 
-| Layer | Tools |
-|-------|--------|
-| Language | Python |
-| AI | OpenAI GPT-4o-mini |
-| Data | pandas |
-| Workflow | modular pipeline |
-| Output | CSV + AI summaries |
+Distributed under the MIT License.
+See LICENSE for more information.
 
----
+⸻
+
+Built by Daria Lebed￼https://www.linkedin.com/in/dioraswan/
+AI-powered RevOps Automation • November 2025
+
