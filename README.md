@@ -10,10 +10,7 @@ AI-powered RevOps assistant that analyzes CRM data, extracts insights, and build
 - 📈 KPI & Stage-based performance breakdown
 - 📝 Exports Markdown summaries (`summary.md`) with insights and recommendations
 - 🔁 Modular pipeline for automation & HubSpot/Google Sheets integration
-
----
-
-## 📁 Project Structure
+  
 ---
 
 ## 💻 Tech Stack
@@ -36,48 +33,78 @@ AI-powered RevOps assistant that analyzes CRM data, extracts insights, and build
 ---
 
 ## 📁 Project Structure
+
 ```bash
 ai-decision-agent/
-├── data/
-│   └── leads.csv
-├── src/
-│   ├── visual_report.py
-│   ├── ai_insight.py
-│   └── generate_summary.py
-├── outputs/
-│   ├── visual_report.png
-│   ├── ai_insight.txt
-│   ├── kpi.json
-│   └── summary.md
+├── data/                     # Input data folder
+│   └── leads.csv             # Sample CRM leads (Name, Stage, Value)
+│
+├── src/                      # Core logic and analytics scripts
+│   ├── ai_insight.py         # Generates AI-powered insights using GPT-4o-mini
+│   ├── visual_report.py      # Builds visual sales reports and charts
+│   └── generate_summary.py   # Exports summaries and KPI breakdowns
+│
+├── outputs/                  # Auto-generated analysis results
+│   ├── visual_report.png     # Pipeline visualization
+│   ├── ai_insight.txt        # Plain-text insight summary
+│   ├── kpi.json              # Structured metrics for automation
+│   └── summary.md            # Markdown report for sharing
+│
 └── README.md
 ```
 ---
-## 🧩 Installation
+## ⚙️ Installation
+
+To set up and run the **AI Decision Agent** locally:
 
 ```bash
-# Clone the repository
+# 1️⃣ Clone the repository
 git clone https://github.com/daria-lebed/ai-decision-agent.git
 cd ai-decision-agent
-```
-# Create virtual environment & install dependencies
-```bash
+
+# 2️⃣ Create a virtual environment
 python3 -m venv venv
-source venv/bin/activate
+source venv/bin/activate    # On macOS / Linux
+# .\venv\Scripts\activate   # On Windows
+
+# 3️⃣ Install dependencies
 pip install -r requirements.txt
 ```
-# Run AI agent
-```bash
-python src/ai_insight.py
-```
 ---
+💡 Usage Example
 
-🧾 License
+Once the environment is ready, you can generate insights or reports automatically.
+```bash
+# Run AI-powered insight generation
+python src/ai_insight.py
 
-Distributed under the MIT License.
-See LICENSE for more information.
+# Generate visual pipeline report
+python src/visual_report.py
+
+# Create summarized KPI and Markdown report
+python src/generate_summary.py
+```
+
+✅ Outputs are stored in the /outputs/ folder:
+
+	•	visual_report.png — visualized pipeline chart
+	•	ai_insight.txt — text-based GPT analysis
+	•	kpi.json — performance metrics
+	•	summary.md — executive-style report
+
+⸻
+
+## ✨ Project Highlights
+
+- 🚀 **AI-powered RevOps automation** — transforms CRM data into real-time insights and visual analytics.  
+- 🧠 **GPT-4o-mini decision engine** — interprets leads, stages, and values to recommend next actions.  
+- 📊 **Instant visualization** — automatically creates pipeline charts and KPI summaries for team reports.  
+- ⚡ **No-code ready integration** — works seamlessly with HubSpot, Google Sheets, or internal dashboards.  
+- 🧩 **Modular architecture** — easy to extend with additional AI models, APIs, or automation scripts.
 
 ⸻
 
 Built by Daria Lebed￼https://www.linkedin.com/in/dioraswan/
 AI-powered RevOps Automation • November 2025
 
+⸻
