@@ -1,7 +1,7 @@
 # AI Decision Agent — Weekly Pipeline Report
 
 
-![Visual Report](outputs/visual_report.png)
+
 
 
 ## Dataset Snapshot
